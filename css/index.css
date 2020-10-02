@@ -104,12 +104,52 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -148,6 +188,14 @@ footer nav a {
 header {
     width: 100%;
 }
+
+header img.topImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    padding-bottom: 2%;
+}
 header nav {
     width: 60%;
     display: flex;
@@ -163,4 +211,44 @@ header nav a {
     text-decoration: none;
     color: black;
     font-weight: 500;
+    padding-top: 4%;
+}
+
+header img.topAboutImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    padding-bottom: 2%;
+}
+
+.p1Border {
+    border-bottom: 1px dashed black;
+    padding-bottom: 2%;
+}
+
+.about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.strategy {
+    width: 25%;
+    padding-bottom: 2rem;
+}
+
+.work {
+    width: 25%;
+    padding-bottom: 2rem;
+}
+
+.places {
+    width: 25%;
+    padding-bottom: 2rem;
+}
+
+.collaboration {
+    width: 25%;
+    padding-bottom: 2rem;
 }
