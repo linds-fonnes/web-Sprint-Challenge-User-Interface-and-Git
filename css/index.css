@@ -227,28 +227,29 @@ header img.topAboutImg {
     padding-bottom: 2%;
 }
 
-.about-page {
+/* .about-page {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .strategy {
-    width: 25%;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .work {
-    width: 25%;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .places {
-    width: 25%;
-    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .collaboration {
-    width: 25%;
-    padding-bottom: 2rem;
-}
+    display: flex;
+    justify-content: space-between;
+} */
