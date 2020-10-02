@@ -239,32 +239,56 @@ header img.topAboutImg {
 }
 .aboutContainer{ 
     width: 50%;
-    border: 10px solid yellow;
+    /* border: 10px solid yellow; */
     display: flex;
     flex-wrap: wrap; 
+    border-bottom: 1px dashed black;
 }
+
 
 .about1 {
     display:flex;
     flex-wrap: wrap;
-    border: 10px solid red;
+    /* border: 10px solid red; */
     }
-
+p.about2 {
+    border-bottom: 1px dashed black;
+    width: 95%;
+}
 .about2 {
     display:flex;
     flex-wrap: wrap;
-    border: 10px solid orange;
+    /* border: 10px solid orange; */
 }
-
+p.about3 {
+    
+    border-bottom: 1px dashed black;
+    width: 95%;
+}
 .about3 {
     display:flex;
     flex-wrap: wrap;
-    border: 10px solid blue;
+    /* border: 10px solid blue; */
 }
 
-.aboutContainer .about4 {
+p.about4 {
+    border-bottom: 1px dashed black;
+    width: 95%;
+}
+.about4 {
     display:flex;
     flex-wrap: wrap;
-    border: 10px solid pink;
+    /* border: 10px solid pink; */
+}
+
+button {
+    text-decoration: none;
+    background-color: white;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 1%;
+    margin-bottom: 3%;
 }
 
