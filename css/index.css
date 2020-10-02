@@ -227,29 +227,12 @@ header img.topAboutImg {
     padding-bottom: 2%;
 }
 
-/* .about-page {
+.aboutContainer{
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
-.strategy {
-    display: flex;
-    justify-content: space-between;
-}
-
-.work {
-    display: flex;
-    justify-content: space-between;
+.about1 {
 
 }
-
-.places {
-    display: flex;
-    justify-content: space-between;
-}
-
-.collaboration {
-    display: flex;
-    justify-content: space-between;
-} */
