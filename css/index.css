@@ -229,10 +229,13 @@ header img.topAboutImg {
 
 .aboutContainer{
     width: 50%;
+    
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .about1 {
-
-}
+    display:flex;
+    flex-wrap: wrap;
+    }
