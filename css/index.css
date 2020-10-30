@@ -311,51 +311,75 @@ footer nav a {
 
 /*About Page*/
 .about-page {
-  background: blue;
+  /* background: blue; */
 }
 .aboutContainer {
-  background: green;
-  height: 50vh;
+  /* background: green; */
+  height: 50%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .about1 {
-  background: red;
+  /* background: red;
   width: 50%;
-  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+  width: 40%;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  align-content: center;
 }
 .about2 {
-  background: yellow;
+  /* background: yellow;
   width: 50%;
-  padding: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; */
+  width: 40%;
+  height: 80%;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  align-content: center;
 }
 .about3 {
-  background: purple;
+  /* background: purple;
   width: 50%;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-content: center; */
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .about4 {
-  background: orange;
+  /* background: orange;
   width: 50%;
-  padding: 0;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-content: center; */
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lastSection {
+  display: flex;
+  flex-direction: column;
+  width: 62%;
+  margin: 0 auto;
+  padding-bottom: 2%;
 }
