@@ -215,7 +215,6 @@ header {
 .middle-content .boxes {
   display: flex;
   flex-wrap: wrap;
-
   justify-content: space-evenly;
 }
 
@@ -308,4 +307,55 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+/*About Page*/
+.about-page {
+  background: blue;
+}
+.aboutContainer {
+  background: green;
+  height: 50vh;
+  display: flex;
+}
+
+.about1 {
+  background: red;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.about2 {
+  background: yellow;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.about3 {
+  background: purple;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.about4 {
+  background: orange;
+  width: 50%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
 }
