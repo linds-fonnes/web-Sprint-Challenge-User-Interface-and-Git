@@ -311,7 +311,7 @@ footer nav a {
 
 /*About Page*/
 .about-page {
-  /* background: blue; */
+  display: inline-flex;
 }
 .aboutContainer {
   /* background: green; */
@@ -322,11 +322,6 @@ footer nav a {
 }
 
 .about1 {
-  /* background: red;
-  width: 50%;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
   width: 40%;
   height: 80%;
   display: flex;
@@ -335,11 +330,6 @@ footer nav a {
   justify-content: center;
 }
 .about2 {
-  /* background: yellow;
-  width: 50%;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
   width: 40%;
   height: 80%;
   display: flex;
@@ -348,12 +338,6 @@ footer nav a {
   justify-content: center;
 }
 .about3 {
-  /* background: purple;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
   width: 40%;
   height: 80%;
   display: flex;
@@ -362,12 +346,6 @@ footer nav a {
   justify-content: center;
 }
 .about4 {
-  /* background: orange;
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
   width: 40%;
   height: 80%;
   display: flex;
